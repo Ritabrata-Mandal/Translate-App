@@ -35,7 +35,7 @@ translateBtn.addEventListener("click", async () => {
 
     try {
 
-        const response = await fetch("http://localhost:3000/translate", {
+        const response = await fetch("/translate", {
 
             method: "POST",
 
@@ -107,7 +107,7 @@ icons.forEach(icon => {
 
             try {
 
-                const response = await fetch("http://localhost:3000/tts", {
+                const response = await fetch("/tts", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
