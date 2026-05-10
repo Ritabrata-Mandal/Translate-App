@@ -284,18 +284,21 @@ img{
     }
 
     img{
-
         width: 24px;
         height: 24px;
     }
 
     #transfer{
-
-        width: 85%;
+        width: 220px;
         height: 55px;
         margin-top: 28px;
         font-size: 20px;
         border-radius: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+        box-sizing: border-box;
     }
 
     #toast{
