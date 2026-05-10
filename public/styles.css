@@ -289,17 +289,20 @@ img{
     }
 
     #transfer{
-        width: 220px;
-        height: 55px;
-        margin-top: 28px;
-        font-size: 20px;
-        border-radius: 14px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 20px;
-        box-sizing: border-box;
-    }
+    width: 220px !important;
+    height: 55px;
+    margin-top: 28px;
+    font-size: 20px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box;
+}
 
     #toast{
 
