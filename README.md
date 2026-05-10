@@ -1,31 +1,27 @@
 # 🌐 AI Translator App
 
-A modern multilingual Translator Web App built using:
+A modern multilingual AI-powered Translator Web App built using Node.js, Express, HTML, CSS, and JavaScript.
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: Node.js + Express
-- Translation API: Sarvam AI
-- Text-to-Speech (TTS): Sarvam AI Bulbul v3
+The application supports multiple Indian languages using Sarvam AI Translation and Text-to-Speech APIs.
 
-Supports:
-- Multiple Indian languages
-- AI Translation
-- AI Voice Output
-- Copy to Clipboard
-- Responsive UI
-- Animated Gradient Design
+---
+
+# 🌍 Live Demo
+
+🔗 https://translate-app-5rxu.onrender.com
 
 ---
 
 # ✨ Features
 
-✅ Text Translation  
-✅ Text-to-Speech (AI Voice)  
-✅ Copy Translated Text  
+✅ AI Text Translation  
+✅ AI Voice Output (Text-to-Speech)  
 ✅ Multiple Indian Languages  
+✅ Copy to Clipboard  
+✅ Responsive Mobile-Friendly UI  
 ✅ Secure Backend API Handling  
-✅ Clean Modern UI  
-✅ Deployable on Render
+✅ Modern Gradient Design  
+✅ Render Deployment Ready  
 
 ---
 
@@ -45,7 +41,7 @@ Supports:
 
 ## APIs
 - Sarvam AI Translation API
-- Sarvam AI TTS API
+- Sarvam AI Text-to-Speech API
 
 ---
 
@@ -66,6 +62,7 @@ TranslateApp/
 ├── server.js
 ├── package.json
 ├── package-lock.json
+├── .gitignore
 ├── .env
 └── README.md
 ```
@@ -77,7 +74,7 @@ TranslateApp/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/translate-app.git
+git clone https://github.com/Ritabrata-Mandal/Translate-App.git
 ```
 
 ---
@@ -85,7 +82,7 @@ git clone https://github.com/YOUR_USERNAME/translate-app.git
 ## 2. Open Project Folder
 
 ```bash
-cd translate-app
+cd Translate-App
 ```
 
 ---
@@ -98,7 +95,7 @@ npm install
 
 ---
 
-## 4. Create `.env`
+## 4. Create `.env` File
 
 Create a `.env` file in the root folder.
 
@@ -133,12 +130,10 @@ npm install
 ## Start Command
 
 ```bash
-npm start
+node server.js
 ```
 
-## Environment Variables
-
-Add:
+## Environment Variable
 
 ```env
 SARVAM_API_KEY=your_api_key_here
@@ -146,15 +141,26 @@ SARVAM_API_KEY=your_api_key_here
 
 ---
 
+# 📱 Mobile Responsive
+
+The UI is optimized for:
+- Desktop
+- Tablet
+- Mobile devices
+
+Responsive layout is implemented using CSS media queries.
+
+---
+
 # 🔒 Security
 
-API keys are securely stored in the backend using `.env`.
+API keys are securely stored using `.env`.
 
 The frontend never directly exposes the API key.
 
 ---
 
-# 🎤 Text To Speech
+# 🎤 Text-to-Speech
 
 Uses:
 
@@ -162,28 +168,31 @@ Uses:
 bulbul:v3
 ```
 
-from Sarvam AI for multilingual speech synthesis.
+from Sarvam AI for multilingual AI speech synthesis.
 
 ---
 
 # 🧠 Future Improvements
 
 - Speech-to-Text
-- Language Detection
+- Automatic Language Detection
 - Translation History
 - User Authentication
-- Theme Toggle
-- Mobile Optimization
-- Download Audio
+- Dark/Light Theme Toggle
+- Download Audio Feature
+- Voice Input
 
 ---
 
 # 👨‍💻 Author
 
-Ritabrata Mandal
+## Ritabrata Mandal
 
-B.Tech CSE  
+B.Tech in Computer Science and Engineering  
 National Institute of Technology Durgapur
+
+GitHub:  
+https://github.com/Ritabrata-Mandal
 
 ---
 

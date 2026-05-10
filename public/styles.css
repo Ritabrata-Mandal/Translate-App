@@ -8,7 +8,7 @@
 body{
     background-color: rgb(54, 88, 139);
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,5 +210,47 @@ img{
     opacity: 1;
 
     transform: translateX(-50%) translateY(0);
+
+}
+
+@media screen and (max-width: 768px){
+
+    .container{
+        width: 95%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .Text{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #fromText,
+    #toText{
+        width: 90%;
+        height: 180px;
+    }
+
+    .selectArea{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .select1,
+    .select2{
+        width: 100%;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    select{
+        width: 180px;
+    }
+
+    #transfer{
+        width: 90%;
+    }
 
 }
